@@ -8,9 +8,7 @@ import cz.upce.fei.boop.clonebathroom.Vana;
 
 public class MainMelce {
 
-    public static void main(String[] args) throws CloneNotSupportedException {
-    // TODO  6. MainMelce: Ostraňte zakomentování a porovnejte výpis obou koupelen 
-    // TODO  7. MainMelce: Do package-info vložte text s popisem porovnání   
+    public static void main(String[] args) throws CloneNotSupportedException {  
         
         Vana vana = new Vana("Ravak", new Rozmer(2.5, 1.2, 0.5));
         KoupelnaMelce koupelna1 = new KoupelnaMelce("K1", 10, 11, 12, vana);
